@@ -1,4 +1,4 @@
-fetch('http://www.omdbapi.com/?apikey=dca61bcc&s=inception')
+fetch('https://www.omdbapi.com/?apikey=dca61bcc&s=inception')
     .then(response => response.json())
     .then(response => {
         const movies = response.Search;
